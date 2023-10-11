@@ -6,7 +6,7 @@ public class Bird {
       
     
     public Bird () {
-        System.out.println("unknown");
+        System.out.println("unknown"); //if there is no bird name was declared
     }
     public Bird (String x, String y, String z){
     
@@ -14,7 +14,7 @@ public class Bird {
     }
     public static void main (String[] arg){
     
-        Bird pakhi = new Bird("bird1", "bird2", "bird3");
+        Bird pakhi = new Bird("bird1", "bird2", "bird3"); //if theres bird name was declared
         
     }
 }
