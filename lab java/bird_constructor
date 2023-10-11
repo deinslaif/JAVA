@@ -1,0 +1,20 @@
+package deinslaif;
+
+
+public class Bird {
+    
+      
+    
+    public Bird () {
+        System.out.println("unknown");
+    }
+    public Bird (String x, String y, String z){
+    
+        System.out.println("Birds name = "+x+" & "+y+" & "+z);
+    }
+    public static void main (String[] arg){
+    
+        Bird pakhi = new Bird("bird1", "bird2", "bird3");
+        
+    }
+}
